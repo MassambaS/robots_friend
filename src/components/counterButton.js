@@ -10,7 +10,7 @@ class CounterButton extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        console.log(nextProps, nextState);
+        //console.log(nextProps, nextState);
         return true;
     }
 
