@@ -10,7 +10,7 @@ export const setSearchField = (text) => {
     console.log()
     return {
         type: CHANGE_SEARCHFIELD,
-         payload: text
+        payload: text
     }
     
 }

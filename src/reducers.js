@@ -10,7 +10,6 @@ const initialStateSearch = {
 }
 
 export const searchRobots = (state=initialStateSearch, action={}) => {
-    console.log(action);
 
     switch(action.type){
         case CHANGE_SEARCHFIELD:
