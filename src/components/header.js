@@ -3,15 +3,6 @@ import CounterButton from './counterButton';
 
 class Header extends Component {
 
-    shouldComponentUpdate(nextProps, nextState){
-        console.log('from header', nextProps, nextState);
-        // if(this.state.count !== nextState.count){
-        //     return true;
-        // }
-
-        return true;
-    }
-
     render(){
         console.log('header')
         return (

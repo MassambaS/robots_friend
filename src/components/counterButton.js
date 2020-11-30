@@ -10,8 +10,10 @@ class CounterButton extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        //console.log(nextProps, nextState);
-        return true;
+        if(this.state.count !== nextState.count){
+            return true;
+        }
+        return false;
     }
 
     updateCount = () => {
